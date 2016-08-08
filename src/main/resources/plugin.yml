@@ -1,0 +1,10 @@
+name: Tribes
+version: 1.0-SNAPSHOT
+main: be.woutdev.tribes.Tribes
+database: true
+author: Wout Ceulemans
+website: www.woutdev.be
+commands:
+  tribes:
+    description: Main tribes command.
+    aliases: hapu

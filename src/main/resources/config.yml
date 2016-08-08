@@ -1,0 +1,126 @@
+region0:
+    region-name: small-village
+    parent: none
+    flag:
+      type: 138
+      name: "&6Region Flag"
+      lore:
+      - "Place this block to protect a region."
+    region-reset: 7
+    shape: CYLINDER
+    area-bottom: 0
+    area-top: 255
+    external-radius: 70
+    levels:
+        level0:
+            name: Bronze
+            exp: 0
+            internal-radius: 20
+            restricted-block-list:
+            - 137
+            - 46
+            - 57
+            - 133
+            - 90
+            - 54
+            - 53
+            restricted-build-list:
+            - marae
+            - pataka
+            - hangi
+            - castle
+            - storage
+        level1:
+            name: Silver
+            exp: 1000
+            internal-radius: 30
+            restricted-block-list:
+            - 137
+            - 46
+            - 57
+            - 133
+            - 90
+            restricted-build-list:
+            - marae
+            - pataka
+            - hangi
+        level2:
+            name: Gold
+            exp: 2500
+            internal-radius: 40
+            restricted-block-list:
+            - 137
+            - 46
+            - 57
+            - 90
+            restricted-build-list:
+            - marae
+            - pataka
+        level3:
+            name: Platinum
+            exp: 7500
+            internal-radius: 50
+            restricted-block-list:
+            - 137
+            - 90
+            restricted-build-list:
+            - marae
+        level4:
+            name: Diamond
+            exp: 20000
+            internal-radius: 60
+            restricted-block-list:
+            restricted-build-list:
+    ranks:
+        rank0:
+            name: Novice
+            heal-buff: 0
+            food-buff: 0
+            protector: true
+            cook: true
+            gardener: true
+            warrior: false
+            builder: false
+            engineer: false
+            chemist: false
+            wizard: false
+            chiefs-aide: false
+        rank1:
+            name: Warrior
+            heal-buff: 2
+            food-buff: 2
+            protector: true
+            cook: true
+            gardener: true
+            warrior: true
+            builder: false
+            engineer: true
+            chemist: false
+            wizard: false
+            chiefs-aide: false
+        rank2:
+            name: Wizard
+            heal-buff: 1
+            food-buff: 1
+            protector: true
+            cook: true
+            gardener: true
+            warrior: true
+            builder: false
+            engineer: false
+            chemist: true
+            wizard: true
+            chiefs-aide: false
+        rank3:
+            name: Righthand
+            heal-buff: 0.5
+            food-buff: 0.5
+            protector: true
+            cook: true
+            gardener: true
+            warrior: true
+            builder: true
+            engineer: true
+            chemist: true
+            wizard: true
+            chiefs-aide: true

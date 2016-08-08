@@ -77,7 +77,9 @@ public class PlayerInteractListener implements Listener
                 if (member == null && !region.getOwner().equals(e.getPlayer().getUniqueId()))
                 {
                     e.setCancelled(true);
-                    e.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getMessagesConfig().getInteractNonMember()));
+                    e.getPlayer()
+                     .sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getMessagesConfig()
+                                                                                    .getInteractNonMember()));
                     return;
                 }
 

@@ -47,7 +47,8 @@ public class BlockPlaceListener implements Listener
                 return;
             }
 
-            PlayerRegion pRegion = new PlayerRegion(e.getPlayer().getUniqueId(), block, e.getBlockPlaced().getLocation());
+            PlayerRegion pRegion = new PlayerRegion(e.getPlayer().getUniqueId(), block,
+                                                    e.getBlockPlaced().getLocation());
 
             if (playerRegionHandler.isOverlapping(pRegion))
             {
